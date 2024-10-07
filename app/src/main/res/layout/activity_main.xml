@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- EditText for user to input their guess -->
+    <EditText
+        android:id="@+id/wordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your 4-letter guess"
+        android:inputType="text"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to submit guess -->
+    <Button
+        android:id="@+id/guessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Guess"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to show the result of the guess (e.g., 'OOXX') -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to show the number of attempts -->
+    <TextView
+        android:id="@+id/attemptsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0/6"
+        android:textSize="18sp"/>
+</LinearLayout>

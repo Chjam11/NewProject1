@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WordleGame</string>
+    <string name="enter_your_guess">Enter Your Guess</string>
+    <string name="wordle_game">Wordle Game</string>
+    <string name="submit_guess">Submit Guess</string>
+</resources>
